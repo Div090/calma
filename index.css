@@ -1,0 +1,68 @@
+*{
+    font-family: Josefin Sans;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-image: url("./bg-desktop-dark.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+}
+.todo-container {
+    text-align: center;
+    margin: 20px;
+    background-color: hsl(235, 24%, 19%);
+    color: white;
+    margin: 2rem auto;
+    width: 90%;
+    max-width: 500px;
+    border-radius: 1.9rem;
+    padding: 2.5rem;
+}
+  
+  h1 {
+    font-size: 36px;
+    margin-bottom: 20px;
+    color: white;
+}
+input[type="text"] {
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    width: 250px;
+}
+  
+button {
+    padding: 10px 20px;
+    background-color: hsl(234, 39%, 85%);
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+button:hover{
+    background-color:hsl(235, 21%, 11%);
+}
+  
+ul {
+    list-style: none;
+    padding: 0; 
+}
+  
+li {
+    margin: 10px 0;
+    padding: 10px;
+    border-radius: 5px;
+}
+  
+.delete-btn {
+    background-color: hsl(234, 39%, 85%);
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    border-radius: 5px;
+    cursor: pointer;   
+  
+}
